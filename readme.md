@@ -57,3 +57,22 @@
     export default App;
 ```
 
+#### Configuracion Webpack
+
+* webpack
+
+```console
+    npm install webpack webpack-cli webpack-dev-server --save-dev
+```
+
+* plugin html
+
+```console
+    npm install html-webpack-plugin html-loader --save-dev
+```
+
+* babel
+
+```console
+    npm install babel-loader  @babel/preset-env @babel/preset-react @babel/core --save-dev
+```
