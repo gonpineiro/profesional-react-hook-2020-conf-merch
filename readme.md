@@ -76,3 +76,11 @@
 ```console
     npm install babel-loader  @babel/preset-env @babel/preset-react @babel/core --save-dev
 ```
+
+#### Webpack CSS
+
+* Plugin CSS
+
+```console
+    npm install css-loader mini-css-extract-plugin --save-dev
+```
