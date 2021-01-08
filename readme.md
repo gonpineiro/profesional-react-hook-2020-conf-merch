@@ -84,3 +84,85 @@
 ```console
     npm install css-loader mini-css-extract-plugin --save-dev
 ```
+
+#### ESLint y Prettier
+
+* Instalación eslint
+
+```
+    npm install -g eslint
+```
+
+* Plugins de eslint
+
+```
+    npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --save-dev
+```
+
+* Luego creas un archivo con el siguiente nombre .eslintrc y pegas lo siguiente:
+
+```json
+    {
+    "extends": [
+        "airbnb",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [
+        1,
+        {
+            "extensions": [
+            ".js",
+            ".jsx"
+            ]
+        }
+        ],
+        "react/prop-types": 0,
+        "no-underscore-dangle": 0,
+        "import/imports-first": [
+        "error",
+        "absolute-first"
+        ],
+        "import/newline-after-import": "error"
+    },
+    "globals": {
+        "window": true,
+        "document": true,
+        "localStorage": true,
+        "FormData": true,
+        "FileReader": true,
+        "Blob": true,
+        "navigator": true
+    },
+    "parser": "babel-eslint"
+    }
+```
+
+* Instalación eslint
+
+```console
+    npm install prettier eslint-plugin-prettier eslint-config-prettier --save-dev
+```
+
+* Luego creas un archivo con el siguiente nombre .prettierrc y pegas lo siguiente:
+
+```json
+    {
+        "trailingComma": "es5",
+        "semi": true,
+        "singleQuote": true
+    }
+```
+
+* Geramos el script en package.json
+
+```
+    "format": "prettier --write \"{*.js,src/**/*.{js,jsx}}\"",
+```
+
+```
+    "lint": "eslint src/ --fix"
+```
