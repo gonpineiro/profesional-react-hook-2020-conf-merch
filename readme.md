@@ -166,3 +166,9 @@
 ```
     "lint": "eslint src/ --fix"
 ```
+
+#### React Paypal button
+
+```
+    npm install react-paypal-button --save
+```

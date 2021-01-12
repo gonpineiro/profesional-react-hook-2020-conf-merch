@@ -25,7 +25,7 @@ const Information = () => {
     };
 
     addToBuyer(buyer);
-    history.push('/checkout/payment')
+    history.push('/checkout/payment');
   };
 
   return (
