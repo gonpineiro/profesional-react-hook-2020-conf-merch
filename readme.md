@@ -172,3 +172,23 @@
 ```
     npm install react-paypal-button --save
 ```
+
+#### DOTENV WebPack
+
+```
+    npm install --save-dev dotenv-webpack
+```
+
+```javascript
+    // webpack.config.js
+    const Dotenv = require('dotenv-webpack');
+    
+    module.exports = {
+    ...
+    plugins: [
+        new Dotenv()
+    ]
+
+    };
+
+```
