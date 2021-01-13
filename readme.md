@@ -192,3 +192,9 @@
     };
 
 ```
+
+#### Google Maps API
+
+```console
+    npm install @react-google-maps/api --save
+```
