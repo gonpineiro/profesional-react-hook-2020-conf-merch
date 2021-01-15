@@ -1,3 +1,6 @@
+const img =
+  'https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U';
+
 export default {
   cart: [],
   buyer: [],
@@ -5,42 +8,42 @@ export default {
   products: [
     {
       id: '1',
-      image: 'https://arepa.s3.amazonaws.com/camiseta.png',
+      image: img,
       title: 'Camiseta',
       price: 25,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
       id: '3',
-      image: 'https://arepa.s3.amazonaws.com/mug.png',
+      image: img,
       title: 'Mug',
       price: 10,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
       id: '4',
-      image: 'https://arepa.s3.amazonaws.com/pin.png',
+      image: img,
       title: 'Pin',
       price: 4,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
       id: '5',
-      image: 'https://arepa.s3.amazonaws.com/stickers1.png',
+      image: img,
       title: 'Stickers',
       price: 2,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
       id: '6',
-      image: 'https://arepa.s3.amazonaws.com/stickers2.png',
+      image: img,
       title: 'Stickers',
       price: 2,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {
       id: '7',
-      image: 'https://arepa.s3.amazonaws.com/hoodie.png',
+      image: img,
       title: 'Hoodie',
       price: 35,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
