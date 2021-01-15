@@ -198,3 +198,9 @@
 ```console
     npm install @react-google-maps/api --save
 ```
+
+#### Axios
+
+```console
+    npm install axios --save
+```
